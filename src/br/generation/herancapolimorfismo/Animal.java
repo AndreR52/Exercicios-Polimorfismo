@@ -1,6 +1,6 @@
 package br.generation.herancapolimorfismo;
 
-public class Animal implements AnimalAcoes{
+public abstract class Animal implements AnimalAcoes{
 	
 	
 	private String nome;

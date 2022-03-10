@@ -1,11 +1,8 @@
 package br.generation.herancapolimorfismo;
 
-public class Preguica extends Animal {
+public class Preguica extends Animal implements AnimalAcoes {
 
 	public void emitirSom() {
-		System.out.println(" Gritando");				
-	}
-	public void subirEmArvore() {		
-	}
-
+		System.out.println(getNome() + " Gritando");				
+	}	
 }

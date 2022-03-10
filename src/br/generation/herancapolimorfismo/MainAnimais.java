@@ -4,7 +4,7 @@ public class MainAnimais extends Animal {
 
 	public static void main(String[] args) {
 		
-		Animal cac = new Animal();
+		Cachorro cac = new Cachorro();
 		Cavalo cav = new Cavalo();
 		Preguica pre = new Preguica();
 		
